@@ -20,7 +20,7 @@ def hook_graph():
             new_html += '/pre>'
     new_html = "<link rel='stylesheet' type='text/css' href='styles.css'>" + new_html        
     new_html = "<img src='ss.png'>" + new_html
-    f = open('/mnt/c/Users/beringela/Desktop/page/result.html', 'w+')  #Path need to be changed
+    f = open('result.html', 'w+')  #Path maybe need to be changed
     f.write(new_html)
     f.close()
 
